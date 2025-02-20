@@ -4,8 +4,8 @@
 This app provides a GUI to help you implement your route plan easily and safely.
 
 ## Security & Privacy
-This app neither requests privileges nor collects your information.  
-Any changes to additional routes can be reverted.
+* This app neither requests privileges nor collects your information.  
+* Any changes to additional routes can be reverted.
 
 ## Examples
 ### Case 1
