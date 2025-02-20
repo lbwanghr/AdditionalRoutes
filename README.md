@@ -1,4 +1,4 @@
-# AdditionalRoutes
+# Additional Routes
 > Additional Routes is a native feature provided by **networksetup** in terminal, which could set up permanent routes under any network service.
 
 This app provides a GUI to help you implement your route plan easily and safely.
