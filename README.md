@@ -1,8 +1,38 @@
 # AdditionalRoutes
-Edit additional routes under any network service easily and safely.
+> Additional Routes is a native feature provided by **networksetup** in terminal, which could set up permanent routes under any network service.
 
-If a target host is not accessible when you are under multiple network services, you need to edit additional routes.
+This app provides a GUI to help you implement your route plan easily and safely.
 
-For example, if your default network service is S1 and a host H1 under service S2 is unreachable, you need to add additional routes under S2.
-This action tells the computer that you can access H1 under S2 through this route.
+## Security & Privacy
+This app neither requests privileges nor collects your information.  
+Any changes to additional routes can be reverted.
 
+## Examples
+### Case 1
+Assume you have two network services "Ethernet"(192.168.0.0/24) and "Wi-Fi"(192.168.3.0/24), and your default network service is "Ethernet".  
+
+If a host H1(192.168.3.14/24) under service "Wi-Fi" is unreachable, you need to add following additional routes.  
+
+**Destination:** 192.168.3.0  
+**Mask:** 255.255.255.0  
+**Gateway:** 192.168.3.1  
+**Network Service:** Wi-Fi  
+
+### Case 2
+Assume there is a router R1(192.168.1.1) connected with R0(192.168.0.1), and you are connected with R0 via service "Ethernet".  
+
+If R1 is unreachable, you need to add following additional routes.  
+
+**Destination:** 192.168.1.1  
+**Mask:** 255.255.255.255  
+**Gateway:** 192.168.0.1  
+**Network Service:** Ethernet  
+
+## Q&A 
+
+**1. I deleted an additional route, but nothing seems to happen, what's going on?**  
+The routing table may not refresh immediately, but restarting your mac could help.
+
+
+---
+If you have questions or typical cases to share with me, please email lbwanghr@icloud.com.
