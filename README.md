@@ -3,6 +3,8 @@
 
 This app provides a GUI to help you implement your route plan easily and safely.  
 
+<img src="https://github.com/lbwanghr/AdditionalRoutes/blob/main/demo1.png" height="300">
+
 [Download](https://github.com/lbwanghr/AdditionalRoutes/releases/download/v1.0/AdditionalRoutes.app.zip) it for free!
 
 ## Security & Privacy
