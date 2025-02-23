@@ -34,7 +34,7 @@ If R1 is unreachable, you need to add following additional routes.
 
 ## Q&A 
 
-**1. I deleted an additional route, but nothing seems to happen, what's going on?**  
+**1. I deleted an additional route, but that route still seems to be there, what's going on?**  
 The routing table may not refresh immediately, but restarting your mac could help.
 
 
